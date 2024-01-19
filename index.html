@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/98.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="window" style="margin: 32px; width: 800px" id="draggable">
+        <!-- <div class="title-bar">
+          <div class="title-bar-text">
+            blue tmrw
+          </div>
+  
+          <div class="title-bar-controls">
+            <button aria-label="Minimize"></button>
+            <button aria-label="Maximize"></button>
+            <button aria-label="Close"></button>
+          </div>
+        </div> -->
+        <menu role="tablist">
+          <li role="tab" aria-selected="true"><a href="#tabs">Desktop</a></li>
+          <li role="tab"><a href="#tabs">My computer</a></li>
+          <li role="tab"><a href="#tabs">Control panel</a></li>
+          <li role="tab"><a href="#tabs">Devices manager</a></li>
+          <li role="tab"><a href="#tabs">Hardware profiles</a></li>
+          <li role="tab"><a href="#tabs">Performance</a></li>
+        </menu>
+        <div class="window" role="tabpanel">
+          <div class="window-body">
+            <div class="headline">ever-connection</div>
+            <div class="blue">Blue</div>
+            <div class="tmrw">TMRW</div>
+            <div style="display: flex; padding-top: 40px; padding-bottom: 30px;">
+              <div class="author">stellar</div>
+              <div class="date">26 01 24</div>
+            </div>
+
+            <div class="marquee">
+              <div>
+                <span>our first iteration of EVER-CONNECTIVITY</span>
+                <span>our first iteration of EVER-CONNECTIVITY</span>
+                <span>our first iteration of EVER-CONNECTIVITY</span>
+                <span>our first iteration of EVER-CONNECTIVITY</span>
+                <span>our first iteration of EVER-CONNECTIVITY</span>
+                <span>our first iteration of EVER-CONNECTIVITY</span>
+                <span>our first iteration of EVER-CONNECTIVITY</span>
+                <span>our first iteration of EVER-CONNECTIVITY</span>
+              </div>
+            </div>
+            
+            <div class="answer" style="margin-top: 30px; display: flex; align-items: center;">
+              <div style="width: 20%; display: flex; justify-content: center;">
+                <img src="http://wrasse.pw/~joel/icons/Static_3.gif" alt="">
+              </div>
+              <div class="window answer" style="padding: 10px; width: 60%;">
+                <div class="field-row-stacked" style="width: 100%">
+                  <label for="password" style="font-size: 25px;">how are you doing?</label>
+                  <input id="password" type="text" style="height: 30px; font-size: 20px;"/>
+                </div>
+                <section class="field-row" style="width: 100%">
+                  <button onclick="javascript:return validatePass()">OK</button>
+                  <button id="cancel">Cancel</button>
+                </section>
+              </div>
+              <div style="width: 20%; display: flex; justify-content: center;">
+                <img src="http://wrasse.pw/~joel/icons/Static_3.gif" alt="">
+              </div>
+            </div>
+
+            <div class="terms">
+              FOR ENTERTAINMENT PURPOSES.   © 2024 Maybe Blue Entertainment LLC. All Rights Reserved. <br>
+              
+              Privacy | Cookies | Terms of Use | World Domination
+            </div>
+          </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

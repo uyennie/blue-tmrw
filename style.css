@@ -1,0 +1,103 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: darkblue;
+}
+
+img {
+    width: 120px;
+}
+
+div.headline {
+    width: 100%;
+    font-size: 60px;
+    text-align: center;
+    font-family: Georgia;
+}
+
+.italics {
+    font-family: arial black;
+    letter-spacing: -5px;
+}
+
+div.subline {
+    width: 100%;
+    font-size: 60px;
+    text-align: center;
+    line-height: 40px;
+    font-family: Georgia;
+}
+
+div.blue {
+    width: 100%;
+    font-family: Georgia;
+    font-size: 200px;
+    line-height: 210px;
+    text-align: center;
+}
+
+div.tmrw {
+    width: 100%;
+    font-family: Arial black;
+    font-size: 200px;
+    line-height: 70px;
+    text-align: center;
+    letter-spacing: -20px;
+}
+
+
+div.author {
+    width: 50%;
+    font-family: Georgia;
+    font-size: 60px;
+    text-align: center;
+}
+
+div.date {
+    width: 50%;
+    font-family: Georgia;
+    font-size: 60px;
+    text-align: center;
+}
+
+div.terms {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: Georgia;
+    font-size: 16px;
+}
+
+div.answer {
+    display:block;
+}
+
+
+.marquee {
+    height: 25px;
+    width: 100%;
+  
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .marquee div {
+    display: block;
+    width: 200%;
+  
+    position: absolute;
+    overflow: hidden;
+  
+    animation: marquee 5s linear infinite;
+  }
+  
+  .marquee span {
+    float: left;
+    font-size: 25px;
+    width: 50%;
+  }
+  
+  @keyframes marquee {
+    0% { left: 0; }
+    100% { left: -100%; }
+  }
